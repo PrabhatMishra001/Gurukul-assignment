@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Image Section -->
+        <div class="image-section">
+          <img src="background.png" alt="Background Image">
+        </div>
+      
+        <!-- Form Section -->
+        <div class="form-section">
+          <form id="signupForm">
+            <h2>Create an account!</h2>
+            <p >Enter your details below to create your account and get started</p>
+              
+<div class="form-columns">
+              <!-- Left Column -->
+              <div class="form-column">
+                <div class="form-field">
+                  <label for="fullName">Full Name</label>
+                  <input type="text" id="username" name="username" placeholder="enter..." required>
+                </div>
+
+                <div class="form-field">
+                  <label for="Dob">Date of Birth</label>
+                  <input type="date" id="dob" name="dob" placeholder="MM / DD / YY" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="Password">Password</label>
+                  <input type="password" id="Password" name="Password" placeholder="Password" required>
+                </div>
+              </div>
+
+              <!-- Right Column -->
+              <div class="form-column">
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="phone">Phone Number</label>
+                  <input type="number" id="number" name="number" placeholder="+91 1234567890" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input type="password" id="confirmPassword" name="confirmPassword" placeholder="enter..." required>
+                </div>
+              </div>
+            </div>
+
+            <div class="action-row">
+              <button type="submit">Sign Up</button>
+              <p>Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+            
+          </form>
+        </div>
+    </div>
+  
+  <script src="signup.js"></script>
+</body>
+</html>
